@@ -3,42 +3,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 body {
-  position: relative;
-  width: 375px;
-  height: 6968px;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-.wrapper {
-  background-image: url(../img/backgroung.svg);
+.header-content {
+  padding: 50px 20px 100px 15px;
+  background: #1c1a19;
+  background-image: url("../img/background.svg");
   background-repeat: no-repeat;
-  max-width: 375px;
+  background-size: 150px 200px;
+  background-position: bottom right;
 }
 
-#navigation {
+.navigation {
   position: absolute;
-  padding-left: 30px;
+  font-family: 'Roboto', Arial, sans-serif;
   background: #3c3a39;
-  width: 375px;
-  height: 60px;
-}
-
-#logo {
-  display: flex;
+  width: 100%;
+  height: 30px;
+  justify-content: space-between;
   flex-direction: row;
-  align-items: center;
-  padding: 1px 12px;
-  position: absolute;
-  width: 101px;
-  height: 44px;
-  left: 12px;
+  display: flex;
 }
 
-#logo .my-name {
+.logo-my-name {
   width: 90px;
   text-decoration: solid;
   height: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 15px;
@@ -47,9 +41,7 @@ body {
   align-items: center;
   text-align: center;
   color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  padding: 10px;
 }
 
 .social-link a {
@@ -68,92 +60,51 @@ body {
 }
 
 .menu-bar {
-  width: 20px;
+  display: block;
+  width: 25px;
   height: 3px;
-  margin-bottom: 4px;
-  margin-left: 300px;
-  margin-top: 5px;
+  margin: 5px auto;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 120px 15px;
-  gap: 12px;
-  position: absolute;
-  width: 375px;
-  height: 590px;
-  top: 50px;
-  background: #1c1a19;
-  background-image: url(img/backgroud.svg);
-  background-repeat: no-repeat;
-  background-position: bottom right;
-}
-
-.header h1 {
-  width: 327px;
-  height: 80px;
+.header-content h1 {
   font-family: "Crete Round", Arial, sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 50px;
+  text-decoration: none;
   line-height: 64px;
   letter-spacing: 0.37px;
+  margin-top: 50px;
+  margin-bottom: 1px;
   color: #ff6b00;
 }
 
-.header h2 {
-  width: 327px;
-  height: 20px;
+.header-content h2 {
   font-family: "Roboto", Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  margin: 1px;
   color: #fff5e1;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
-.header p {
-  width: 327px;
-  height: 123px;
+.header-content p {
   font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
 }
 
-.social-link {
+.container {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 200px;
-  height: 20px;
-  margin-left: 10px;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 
-#background {
-  display: block;
-  align-items: flex-start;
-  padding: 10px;
-  justify-content: flex-start;
-  width: 20px;
-  height: 20px;
-  flex-grow: 0;
-  margin-left: 63%;
+.social-link * {
+  display: flex;
+  padding: 1px;
 }

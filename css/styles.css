@@ -83,6 +83,7 @@ body {
   color: #fff;
   border: 1px solid black;
   padding: 10px;
+  margin-left: 16px;
 }
 
 .About-me a {
@@ -97,6 +98,9 @@ body {
   color: #fff;
   background-color: #ff6b00;
   width: 150px;
+  height: 48px;
+  padding-top: 16px;
+  padding-right: 10px;
   padding-left: 16px;
   margin-left: 16px;
   text-decoration: none;
@@ -173,7 +177,8 @@ body {
   font-weight: 200;
   font-size: 40px;
   line-height: 52px;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  margin-left: 24px;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .my-works {
@@ -232,6 +237,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   text-align: center;
+  height: 30px;
   flex: none;
   padding-left: 16px;
   justify-content: space-between;
@@ -239,6 +245,7 @@ body {
   letter-spacing: 0.03em;
   padding-right: 16px;
   margin-left: 16px;
+  padding-top: 15px;
   background: rgba(255, 255, 255, 0.24);
 }
 

@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round@1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 body {
   margin: 0;
@@ -72,7 +73,7 @@ body {
 .work-content a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   align-items: center;
@@ -173,11 +174,15 @@ body {
 .title {
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: normal;
   font-size: 40px;
   line-height: 52px;
   margin-left: 24px;
-  border-bottom: 1px solid rgb(0, 0, 0);
+  margin-right: 24px;
+  padding-bottom: 24px;
+  color: #1c1a19;
+  border-bottom: 1px solid black;
+  text-align: center;
 }
 
 .my-works {
@@ -215,7 +220,7 @@ body {
 .work-content p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
@@ -232,28 +237,27 @@ body {
 .programming-languages p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 15px;
   line-height: 20px;
   text-align: center;
   height: 30px;
   flex: none;
-  padding-left: 16px;
   justify-content: space-between;
   letter-spacing: 0.03em;
-  padding-right: 16px;
   margin-left: 16px;
-  padding-top: 15px;
   background: rgba(255, 255, 255, 0.24);
-  border: 1px solid #8993A4;
+  border: 1px solid #8993a4;
+  color: #091e42;
+  padding: 10px;
 }
 
 .work-pic-2 {
-  background-image: url("../img/work-img/work-2.png");
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-top: 100px;
+  margin-top: 24px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../img/work-img/work-2.png');
 }
 
 .work-pic-2 h2 {
@@ -270,7 +274,7 @@ body {
 .work-pic-2 p {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #fff;
@@ -307,11 +311,12 @@ body {
   line-height: 88px;
   letter-spacing: 0.37px;
   color: #ff6b00;
+  font-style: normal;
   padding-left: 16px;
   padding-right: 24px;
   display: flex;
   align-items: center;
-  width: 327;
+  width: 327px;
 }
 
 .lists {

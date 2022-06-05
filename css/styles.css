@@ -86,8 +86,7 @@
 
 .works {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  display: inline-block;
+  grid-template-columns: 1fr;
   grid-gap: 12px;
 }
 

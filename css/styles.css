@@ -140,10 +140,12 @@
 
 .programming-languages {
   list-style-type: none;
+  color: #091e42;
+  /*
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
-  color: #091e42;
+  */
 }
 
 .box-1 {

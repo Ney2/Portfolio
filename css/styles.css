@@ -242,9 +242,9 @@
 
 .programming-languages-1 {
   list-style: none;
-  display: grid;
+  /*display: grid;
   grid-template-columns: repeat(3, 1fr 2fr);
-  grid-gap: 12px;
+  grid-gap: 12px;*/
   margin: 16px;
 }
 
@@ -260,6 +260,8 @@
   line-height: 20px;
   color: #fff;
   margin-right: 12px;*/
+  float: left;
+  margin-right: 12px;
   background: rgba(255, 255, 255, 0.24);
   padding: 12px;
   text-align: center;

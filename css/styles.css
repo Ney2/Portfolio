@@ -140,13 +140,19 @@
 
 .programming-languages {
   list-style-type: none;
+  color: #091e42;
+  /*
+  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
   color: #091e42;
+  */
 }
 
 .box-1 {
+  float: left;
+
   display: inline-block;
   margin-bottom: 12px;
   margin-top: 12px;

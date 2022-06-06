@@ -147,7 +147,7 @@
 }
 
 .box-1 {
-  display: inline-block;
+  float: left;
   margin-bottom: 12px;
   margin-top: 12px;
   margin-right: 5px;
@@ -163,6 +163,22 @@
   line-height: 20px;
   color: #091e42;
   border: 1px solid #8993a4;
+  /*display: inline-block;
+  margin-bottom: 12px;
+  margin-top: 12px;
+  margin-right: 5px;
+  height: 40px;
+  text-align: center;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  border: 1px solid #8993a4;*/
 }
 
 .button-1 {
@@ -231,6 +247,17 @@
 }
 
 .box {
+   /*float: left;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 12px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  margin-right: 12px;*/
   background: rgba(255, 255, 255, 0.24);
   padding: 12px;
   text-align: center;

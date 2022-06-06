@@ -369,3 +369,143 @@
   color: #fff;
   padding: 12px;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 24px;
+}
+
+.contact-intro {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 120px;
+  color: #172b4d;
+}
+
+.formspree {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-list {
+  margin-top: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+#name {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  width: 90%;
+  border: none;
+  margin-top: 24px;
+  padding: 12px;
+  border-bottom: 1px solid #979493;
+}
+
+#email {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+  border: none;
+  margin-top: 24px;
+  padding: 12px;
+  width: 90%;
+  border-bottom: 1px solid #979493;
+}
+
+#message {
+  margin-right: 24px;
+  padding: 12px;
+  margin-top: 24px;
+  width: 90%;
+  margin-bottom: 12px;
+  background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+#button-4 {
+  text-align: center;
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  margin-bottom: 120px;
+  background: #ff6b00;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  align-self: center;
+}
+
+#button-4:hover {
+  color: #ff6b00;
+  background-color: #fff5e1;
+}
+
+#button-4:disabled {
+  color: #5b5957;
+  background: #f4f1f0;
+}
+
+#button-4:visited {
+  color: #f55800;
+  background: #fff5e1;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  height: 1px;
+  background: #dfe1e6;
+  border: none;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.link-list {
+  display: inline-block;
+  padding: 12px;
+}
+
+.hr {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 120px;
+}

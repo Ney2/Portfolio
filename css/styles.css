@@ -185,6 +185,7 @@
   color: #fff;
   cursor: pointer;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .button-1:hover {
@@ -440,6 +441,7 @@
   padding: 12px;
   margin-top: 24px;
   width: 90%;
+  height: 150px;
   margin-bottom: 12px;
   background: #fbf8f7;
   font-family: 'Inter', sans-serif;
@@ -448,6 +450,7 @@
   font-size: 15px;
   line-height: 24px;
   color: #3c3a39;
+  border: none;
 }
 
 #button-4 {
@@ -523,6 +526,7 @@ hr {
   body * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
   }
 
   .menu-bar {
@@ -591,8 +595,6 @@ hr {
   .works {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
   }
 
   .title {
@@ -605,22 +607,27 @@ hr {
     line-height: 52px;
     color: #091e42;
     border-bottom: none;
+    margin-left: 7%;
   }
 
   #line {
     display: block;
-    align-self: center;
-    height: 3px;
-    width: 50%;
+    unicode-bidi: isolate;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    width: 43%;
     margin-top: -70px;
-    margin-bottom: 100px;
-    padding-left: 350px;
+    margin-left: 450px;
   }
 
   .my-works {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
+    grid-template-columns: 60% 29%;
+    grid-gap: 2%;
+    margin-left: 6%;
+    margin-right: 3%;
+    margin-top: 100px;
   }
 
   .programming-languages {
@@ -629,14 +636,15 @@ hr {
 
   .work-pic-1 {
     width: 100%;
-    height: 100%;
     margin-top: -20px;
   }
 
   .work-lists {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    grid-gap: 10px;
+    grid-gap: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
 
   .work-pic-2 {
@@ -751,11 +759,11 @@ hr {
   .contact-part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 50px;
   }
 
   .contact-intro {
-    margin-top: 80px;
+    margin-top: 90px;
     text-align: left;
     margin-left: 50px;
   }

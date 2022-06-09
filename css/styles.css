@@ -117,9 +117,15 @@
 }
 
 .work-pic-1 {
-  width: 100%;
+  width: 90%;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.work-pic-1:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .work-content {
@@ -159,8 +165,6 @@
 }
 
 .box-1 {
-  float: left;
-
   display: inline-block;
   margin-bottom: 12px;
   margin-top: 12px;
@@ -214,6 +218,12 @@
   flex-direction: column;
   margin: 24px;
   background-image: url('../img/work-img/work-2.png');
+}
+
+.work-pic-2:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .work-pic-2 h2 {
@@ -641,7 +651,7 @@ hr {
   }
 
   .work-pic-1 {
-    width: 100%;
+    width: 90%;
     margin-top: -20px;
   }
 

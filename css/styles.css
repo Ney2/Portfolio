@@ -117,15 +117,9 @@
 }
 
 .work-pic-1 {
-  width: 90%;
+  width: 100%;
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.work-pic-1:hover {
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 .work-content {
@@ -154,14 +148,10 @@
 
 .programming-languages {
   list-style-type: none;
-  color: #091e42;
-  /*
-  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
   color: #091e42;
-  */
 }
 
 .box-1 {
@@ -218,12 +208,6 @@
   flex-direction: column;
   margin: 24px;
   background-image: url('../img/work-img/work-2.png');
-}
-
-.work-pic-2:hover {
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
 }
 
 .work-pic-2 h2 {
@@ -651,7 +635,7 @@ hr {
   }
 
   .work-pic-1 {
-    width: 90%;
+    width: 100%;
     margin-top: -20px;
   }
 

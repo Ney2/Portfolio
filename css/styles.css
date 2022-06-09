@@ -32,6 +32,23 @@
   margin: 24px 24px 24px 24px;
   color: #fff;
   text-decoration: none;
+  animation-name: rotation;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+}
+
+@keyframes rotation {
+  from {
+    font-size: 10px;
+    color: #fff;
+    transform: rotate(180deg);
+  }
+
+  to {
+    font-size: 40px;
+    color: orange;
+    transform: rotate(-360deg);
+  }
 }
 
 .menu-bar {
@@ -56,6 +73,18 @@
   letter-spacing: 0.37px;
   color: #ff6b00;
   margin: 24px;
+  animation-name: slidein;
+  animation-duration: 2s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
 
 .container h2 {
@@ -66,6 +95,8 @@
   line-height: 32px;
   color: #fff5e1;
   margin-left: 24px;
+  animation-name: slidein;
+  animation-duration: 2s;
 }
 
 .container p {
@@ -76,6 +107,8 @@
   line-height: 24px;
   color: #fff;
   margin: 24px;
+  animation-name: slidein;
+  animation-duration: 2s;
 }
 
 .social-link {
@@ -117,9 +150,15 @@
 }
 
 .work-pic-1 {
-  width: 100%;
+  width: 90%;
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.work-pic-1:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .work-content {
@@ -208,6 +247,12 @@
   flex-direction: column;
   margin: 24px;
   background-image: url('../img/work-img/work-2.png');
+}
+
+.work-pic-2:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .work-pic-2 h2 {
@@ -420,6 +465,7 @@
   margin-top: 24px;
   padding: 12px;
   border-bottom: 1px solid #979493;
+  transition: transform 1s;
 }
 
 #email {
@@ -521,6 +567,10 @@ hr {
   margin-left: 120px;
 }
 
+::-webkit-input-placeholder {
+  transform: translateX(10px);
+}
+
 /* desktop version */
 @media (min-width: 768px) {
   body * {
@@ -559,6 +609,14 @@ hr {
     color: #fff;
     text-decoration: none;
     margin: 24px 24px 12px 24px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 1ms;
+  }
+
+  .desktop-list a:hover {
+    color: orange;
+    font-size: 40px;
   }
 
   .header-content {
@@ -635,8 +693,14 @@ hr {
   }
 
   .work-pic-1 {
-    width: 100%;
+    width: 90%;
     margin-top: -20px;
+  }
+
+  .work-pic-1:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   .work-lists {
@@ -651,6 +715,12 @@ hr {
     display: flex;
     width: 100%;
     justify-content: center;
+  }
+
+  .work-pic-2:hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   .programming-languages-1 li {

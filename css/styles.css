@@ -33,7 +33,7 @@
   color: #fff;
   text-decoration: none;
   animation-name: rotation;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-iteration-count: 3;
 }
 
@@ -96,7 +96,7 @@
   color: #fff5e1;
   margin-left: 24px;
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 .container p {
@@ -108,7 +108,7 @@
   color: #fff;
   margin: 24px;
   animation-name: slidein;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 .social-link {
@@ -215,7 +215,7 @@
 .button-1 {
   width: 124px;
   height: 48px;
-  background-color: #ff6b00;
+  background-color: #853700;
   border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -261,7 +261,7 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
+  color: #3d3d3d;
   margin: 16px;
   padding-top: 84px;
 }
@@ -272,7 +272,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: #0d0d0d;
   margin-left: 16px;
 }
 
@@ -302,7 +302,7 @@
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
-  background: #ff6b00;
+  background: #853700;
   border: none;
   height: 48px;
   width: 100%;
@@ -360,7 +360,7 @@
 .button-3 {
   width: 161px;
   height: 48px;
-  background-color: #ff6b00;
+  background-color: #853700;
   border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -453,6 +453,15 @@
   flex-direction: column;
 }
 
+#user-name,
+#user-email,
+#user-message {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 #name {
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -465,6 +474,7 @@
   margin-top: 24px;
   padding: 12px;
   border-bottom: 1px solid #979493;
+  margin-bottom: 15px;
   transition: transform 1s;
 }
 
@@ -480,6 +490,7 @@
   padding: 12px;
   width: 90%;
   border-bottom: 1px solid #979493;
+  margin-bottom: 15px;
 }
 
 #message {
@@ -505,7 +516,7 @@
   width: 131px;
   height: 48px;
   margin-bottom: 120px;
-  background: #ff6b00;
+  background: #853700;
   border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;

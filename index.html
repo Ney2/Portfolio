@@ -9,29 +9,46 @@
   </head>
 
   <body>
-  <section class="navigation-bar">
+  <header class="navigation_bar">
             <nav class="navigation">
-                <a href="#" class="logo-my-name">Kidist D.Guta</a>
+                <a href="#" class="logo_my_name">Kidist D.Guta</a>
                 <nav class="menu">
-                  <div class="menu-bar">
-                   <img src="img/Union.svg" alt="menu-bar" />
+                  <div class="menu_bar">
+                   <a href="#"><img class="menu" src="img/Union.svg" alt="menu-bar" /></a>
                  </div>
                  </nav>
+            <div class="mobile-menu display-mobile">
+            <div class="close-menu">
+                <a href="#"><img src="img/Close.png" alt="Close-icon"></a>
+            </div> 
+            
+            <ul>
+                <li>
+                    <a class="menu-links" href="#header-content">Portfolio</a>
+                </li>
+                <li>
+                    <a class="menu-links"  href="#work-content">About</a>
+                </li>
+                <li>
+                    <a class="menu-links"  href="#contact">Contact</a>
+                </li>
+            </ul>     
+        </div>
 
       <!--Desktop vesion menu -->
       <nav class="desktop-menu">
-        <ul class="desktop-bar">
-          <li class="desktop-list"><a href="#">Portfolio</a></li>
-          <li class="desktop-list"><a href="#work-content">About</a></li>
-          <li class="desktop-list"><a href="#contact">Contact</a></li>
+        <ul class="desktop_bar">
+          <li class="desktop_list"><a href="#">Portfolio</a></li>
+          <li class="desktop_list"><a href="#work-content">About</a></li>
+          <li class="desktop_list"><a href="#contact">Contact</a></li>
        </ul>
        <a href="#">
-       <img  class="desktop-list" src="img/Desktop/message-icon.png" alt="message-icon">
+       <img  class="desktop_list" id="email_icon" src="img/Desktop/message-icon.png" alt="message-icon">
        </a>
       </nav>
   </nav>
         <!-- end of desktop vesion menu -->
-    </section>
+    </header>
 
     <section class="header-content">
       <div class="container">
@@ -210,17 +227,17 @@
   <form class="formspree" action="https://formspree.io/f/mayvvrzz" method="post">
   <ul class="form-list">
     <li>
-    <label for="name" id="user-name">Full Name</label>
+    <label for="name" id="user-name"></label>
     <input type="text" name="user-name" id="name" placeholder="Full name" required maxlength="30">
     </li>
 
     <li>
-      <label for="email" id="user-email">Email</label>
+      <label for="email" id="user-email"></label>
       <input type="email" name="user-email" id="email" placeholder="Email address" required>
     </li>
 
     <li>
-      <label for="message" id="user-message">Message</label>
+      <label for="message" id="user-message"></label>
       <textarea name="message" id="message" placeholder="Enter text here" required maxlength="500"></textarea>
     </li>
 </ul>
@@ -243,5 +260,6 @@
      </div>
      <hr class="hr">
    </section>
+   <script rel="text/Javascript"  src="./script/script.js"></script>
   </body>
 </html>

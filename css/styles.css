@@ -715,6 +715,7 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: #172b4d;
 }
 
 .modal-details {
@@ -731,7 +732,8 @@ hr {
 .modal-buttons {
   cursor: pointer;
   display: flex;
-  gap: 5px;
+  gap: 10px;
+ 
 }
 
 .modal-description {
@@ -746,6 +748,46 @@ hr {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+.Live,
+.Source {
+  background: #f55800;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  text-align: left; 
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+
+.Live {
+  width: 134px;
+  height: 48px;
+  background-image: url('../img/Icon-see\ live.png');
+}
+
+.Source {
+  width: 159px;
+  height: 48px;
+  background-image: url('../img/Vector.png');
+}
+
+.Live:hover {
+  color: #ff6b00;
+  background-color: #fff5e1;
+}
+
+.Source:hover {
+  color: #ff6b00;
+  background-color: #fff5e1;
 }
 
 /* desktop version */

@@ -3,7 +3,9 @@ Setup and mobile version skeleton.
 This project contains the toolbar (or header) and the headline section (right after the header) for template two from figma.
 
 # Built With
-  html and CSS
+    - html
+    - CSS and 
+    - JavaScript
 
 # Live Demo (if available)
   https://ney2.github.io/Portfolio/ 

@@ -19,10 +19,13 @@ This project contains the toolbar (or header) and the headline section (right af
            2. Open the folder
            3. Run index.html file
 
-# Author
+# Author 1
 GitHub: @Ney2
 Twitter: @GutaKidist
 LinkedIn: @KidistGuta
+
+# Author 2 
+  - GitHub: @Mehria-Rahmani
 
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

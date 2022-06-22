@@ -733,7 +733,6 @@ hr {
   cursor: pointer;
   display: flex;
   gap: 10px;
- 
 }
 
 .modal-description {
@@ -756,7 +755,7 @@ hr {
   color: #fff;
   border: none;
   padding: 10px;
-  text-align: left; 
+  text-align: left;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;

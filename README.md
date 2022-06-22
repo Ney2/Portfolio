@@ -18,14 +18,16 @@ This project contains the toolbar (or header) and the headline section (right af
            1. Clone the repository
            2. Open the folder
            3. Run index.html file
-
+           
 # Author 1
-GitHub: @Ney2
-Twitter: @GutaKidist
-LinkedIn: @KidistGuta
+  - GitHub: @Ney2
+  - Twitter: @KidistGuta
+  - LinkedIn: @KidistDinku
 
-# Author 2 
+# Author 2
   - GitHub: @Mehria-Rahmani
+  - Twitter: @MehriaRahmani
+  - LinkedIn: @mehria-rahmani
 
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

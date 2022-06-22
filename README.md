@@ -22,12 +22,7 @@ This project contains the toolbar (or header) and the headline section (right af
   - GitHub: @Ney2
   - Twitter: @KidistGuta
   - LinkedIn: @KidistDinku
-
-# Author 2
-  - GitHub: @Mehria-Rahmani
-  - Twitter: @MehriaRahmani
-  - LinkedIn: @mehria-rahmani
-
+  
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 

@@ -180,10 +180,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div>${project.details}</div>
                     <div class="modal-buttons">
                       <form action="https://ney2.github.io/Portfolio/" method="get" target="_blank">
-                        <button type="submit"><img src="./img/Enable-1.png" alt="Deployed page"></button>
+                        <button type="submit" class="Live">See Live</button>   
                           </form>
                           <form action="https://github.com/Ney2/Portfolio" method="get" target="_blank">
-                          <button type="submit"><img src="./img/Enable-2.png" alt="Source page"></button>
+                          <button type="submit" class="Source">See Source</button>
                           </form>
                     </div>
                   </div>

@@ -211,4 +211,17 @@ document.addEventListener('click', (event) => {
     }
   });
 });
-const email = document.getElementById('email').value; const error = document.querySelector('.error');
+
+// Email Vaildation
+document.getElementById('button-4').addEventListener('click', (event) => {
+  const email = document.getElementById('email').value;
+  const error = document.querySelector('.error');
+  const isLowerCase = (str) => str === str.toLowerCase();
+  if (!isLowerCase(email)) {
+    event.preventDefault();
+    error.innerHTML = 'Wrong input, Email should be in lowercase';
+    setTimeout(() => {
+      error.innerHTML = '';
+    }, 8000);
+  }
+});

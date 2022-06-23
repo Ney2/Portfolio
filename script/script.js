@@ -211,3 +211,4 @@ document.addEventListener('click', (event) => {
     }
   });
 });
+const email = document.getElementById('email').value; const error = document.querySelector('.error');

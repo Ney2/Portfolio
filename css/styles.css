@@ -789,6 +789,20 @@ hr {
   background-color: #fff5e1;
 }
 
+.form-post {
+  display: flex;
+  flex-direction: row;
+}
+
+.error {
+  font-family: 'Poppins', sans-serif;
+  color: #ff3434;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 900;
+  margin: 10px;
+}
+
 /* desktop version */
 @media (min-width: 768px) {
   body * {
